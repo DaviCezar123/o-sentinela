@@ -9,7 +9,7 @@
 
 **Site público:** https://o-sentinela-davi.onrender.com
 
-O Sentinela é um projeto desenvolvido para feira de ciências com o objetivo de ajudar usuários a analisar sites, informações e senhas de forma clara, educativa e tecnológica.
+O Sentinela é um projeto desenvolvido para o HackaNAV com o objetivo de combater a desinformação, ajudando usuários a analisar sites, informações e senhas de forma clara, educativa e tecnológica.
 
 ---
 
@@ -78,8 +78,7 @@ O Sentinela também possui uma calculadora com operações como:
 - Divisão;
 - Potenciação;
 - Raiz;
-- Frações;
-- Parênteses.
+- Frações.
 
 ---
 
@@ -121,21 +120,3 @@ O back-end é responsável pela lógica das análises de site, informação, sen
 - GitHub — armazenamento e controle do código-fonte;
 - Render — hospedagem do site e da API;
 - QR Code — acesso rápido ao projeto durante a feira.
-
----
-
-## 🧩 Estrutura do projeto
-
-```text
-o-sentinela/
-├── frontend/              # Interface React
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── backend/               # API Python/FastAPI
-│   ├── app/
-│   ├── tests/
-│   └── requirements.txt
-│
-└── README.md
